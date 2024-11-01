@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.result {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.pyramid {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pyramid div {
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+}
+
+.pyramid .high {
+    background-color: green;
+}
+
+.pyramid .low {
+    background-color: red;
+}
